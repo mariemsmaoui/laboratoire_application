@@ -1,0 +1,41 @@
+{
+    "members":[
+        {   
+            "id":"1254",
+            "cin":"11125654",
+            "name":"Iyed",
+            "createDate":"12/02/23",
+            "cv":"lien",
+            "type":"Student"
+        },
+        {   
+            "id":"1255",
+            "cin":"11125655",
+            "name":"Slim",
+            "createDate":"03/01/23",
+            "cv":"lien",
+            "type":"Student"
+        }
+    ],
+    "articles":[
+        {
+            "id":"1",
+            "titre":"titre1",
+            "type":"scientifique",
+            "dateApparition":"12/12/2015",
+            "sourcePdf":"lien",
+            "auteur":""
+        }
+
+    ],
+    "events":[
+        {
+            "id_event":"1",
+            "titre":"conference",
+            "date_debut":"11/03/2022",
+            "date_fin":"15/03/2022"
+            
+        }
+
+    ]
+}

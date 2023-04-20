@@ -1,0 +1,10 @@
+<mat-form-field appearance="fill">
+    <mat-label>Select Author</mat-label>
+    <mat-select [(ngModel)]="selectedAuthor" name="auteur">
+      <mat-option *ngFor="let author of authors" [value]="author.id">
+        {{author.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <p> Selected Author ID: {{selectedAuthor}} </p>
+  <button (click)="Add(selectedAuthor)" mat-raised-button color="primary" type="submit">Submit</button>
