@@ -21,8 +21,9 @@ Product.service
 
 `Carts` :
 
-Component
--Carts
+Component:
+
+- Carts
 
 Services:
 cart.services
